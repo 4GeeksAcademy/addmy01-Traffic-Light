@@ -1,4 +1,4 @@
-
+/* 
 /* 
 
     You can write your own styles here...
@@ -10,3 +10,79 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border: 0;
+}
+.top {
+    background-color: black;
+    height: 100px;
+    width: 10px;
+}
+.main{
+    background-color: black;
+  
+
+}
+.light{
+    background-color: black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+.red {
+background-color: red;
+}
+
+.yellow {
+background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.glow {
+    box-shadow: 0px 0px 12px 7px #ffffff;
+}  
+
+/* 
+
+#traffictop {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 30px;
+}
+
+#container {
+    background-color: black;
+    width: 70px;
+    height: 178px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.light{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    &.red { background-color: red;}
+    &.yellow { background-color: yellow;}
+    &.green { background-color: green;}
+    &.selected {box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
+.wholeLight{
+    margin-left: 50%;
+} */
